@@ -1,0 +1,258 @@
+Please enter the number of stacks between 2 and 5: 3
+Please enter the depth of stacks between 2 and 4: 3
+0 1 2 3 4
+. . . . .      card
+| A B C |    |B A C|
+| A B C |    |A B C|
+| A B C |    |A B C|
++-------+             0 moves
+
+Enter your move(s) [Q for quit and R to reset]: 2u
+0 1 2 3 4
+. . B . .      card
+| A . C |    |B A C|
+| A B C |    |A B C|
+| A B C |    |A B C|
++-------+             1 moves
+
+Enter your move(s) [Q for quit and R to reset]: 2r
+0 1 2 3 4
+. . . B .      card
+| A . C |    |B A C|
+| A B C |    |A B C|
+| A B C |    |A B C|
++-------+             2 moves
+
+Enter your move(s) [Q for quit and R to reset]: 1u 1r 2d
+0 1 2 3 4
+. . . B .      card
+| . A C |    |B A C|
+| A B C |    |A B C|
+| A B C |    |A B C|
++-------+             5 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3l
+0 1 2 3 4
+. . B . .      card
+| . A C |    |B A C|
+| A B C |    |A B C|
+| A B C |    |A B C|
++-------+             6 moves
+
+Enter your move(s) [Q for quit and R to reset]: 2l
+0 1 2 3 4
+. B . . .      card
+| . A C |    |B A C|
+| A B C |    |A B C|
+| A B C |    |A B C|
++-------+             7 moves
+
+Enter your move(s) [Q for quit and R to reset]: 1d
+0 1 2 3 4
+. . . . .      card
+| B A C |    |B A C|
+| A B C |    |A B C|
+| A B C |    |A B C|
++-------+             8 moves
+
+Congratulations! Well done.
+
+Would you like another game? [Y/N]: x
+Invalid input: x
+
+Would you like another game? [Y/N]: y
+
+0 1 2 3 4
+. . . . .      card
+| A B C |    |C A C|
+| A B C |    |B B A|
+| A B C |    |A B C|
++-------+             0 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3u
+0 1 2 3 4
+. . . C .      card
+| A B . |    |C A C|
+| A B C |    |B B A|
+| A B C |    |A B C|
++-------+             1 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3r
+0 1 2 3 4
+. . . . C      card
+| A B . |    |C A C|
+| A B C |    |B B A|
+| A B C |    |A B C|
++-------+             2 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3r
+Invalid move
+0 1 2 3 4
+. . . . C      card
+| A B . |    |C A C|
+| A B C |    |B B A|
+| A B C |    |A B C|
++-------+             2 moves
+
+Enter your move(s) [Q for quit and R to reset]: hello
+Invalid move
+0 1 2 3 4
+. . . . C      card
+| A B . |    |C A C|
+| A B C |    |B B A|
+| A B C |    |A B C|
++-------+             2 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3u 3l 2l 1l 1u 1r 2r
+0 1 2 3 4
+C A . . C      card
+| . B . |    |C A C|
+| A B . |    |B B A|
+| A B C |    |A B C|
++-------+             7 moves
+
+Enter your move(s) [Q for quit and R to reset]: 1r
+0 1 2 3 4
+C . A . C      card
+| . B . |    |C A C|
+| A B . |    |B B A|
+| A B C |    |A B C|
++-------+             8 moves
+
+Enter your move(s) [Q for quit and R to reset]: 2r
+0 1 2 3 4
+C . . A C      card
+| . B . |    |C A C|
+| A B . |    |B B A|
+| A B C |    |A B C|
++-------+             9 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3d 4l 3d 1u 1r
+0 1 2 3 4
+C . A . .      card
+| . B C |    |C A C|
+| . B A |    |B B A|
+| A B C |    |A B C|
++-------+             14 moves
+
+Enter your move(s) [Q for quit and R to reset]: 2r
+0 1 2 3 4
+C . . A .      card
+| . B C |    |C A C|
+| . B A |    |B B A|
+| A B C |    |A B C|
++-------+             15 moves
+
+Enter your move(s) [Q for quit and R to reset]: 2u 2l 1d
+0 1 2 3 4
+C . . A .      card
+| . . C |    |C A C|
+| B B A |    |B B A|
+| A B C |    |A B C|
++-------+             18 moves
+
+Enter your move(s) [Q for quit and R to reset]: 0l
+Invalid move
+0 1 2 3 4
+C . . A .      card
+| . . C |    |C A C|
+| B B A |    |B B A|
+| A B C |    |A B C|
++-------+             18 moves
+
+Enter your move(s) [Q for quit and R to reset]: 0r
+0 1 2 3 4
+. C . A .      card
+| . . C |    |C A C|
+| B B A |    |B B A|
+| A B C |    |A B C|
++-------+             19 moves
+
+Enter your move(s) [Q for quit and R to reset]: 1d
+0 1 2 3 4
+. . . A .      card
+| C . C |    |C A C|
+| B B A |    |B B A|
+| A B C |    |A B C|
++-------+             20 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3l
+0 1 2 3 4
+. . A . .      card
+| C . C |    |C A C|
+| B B A |    |B B A|
+| A B C |    |A B C|
++-------+             21 moves
+
+Enter your move(s) [Q for quit and R to reset]: 2d
+0 1 2 3 4
+. . . . .      card
+| C A C |    |C A C|
+| B B A |    |B B A|
+| A B C |    |A B C|
++-------+             22 moves
+Congratulations! Well done.
+
+Would you like another game? [Y/N]:Y
+
+0 1 2 3 4
+. . . . .      card
+| A B C |    |B C B|
+| A B C |    |A C A|
+| A B C |    |C B A|
++-------+             0 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3r
+Invalid move
+0 1 2 3 4
+. . . . .      card
+| A B C |    |B C B|
+| A B C |    |A C A|
+| A B C |    |C B A|
++-------+             0 moves
+
+Enter your move(s) [Q for quit and R to reset]: 0l
+Invalid move
+0 1 2 3 4
+. . . . .      card
+| A B C |    |B C B|
+| A B C |    |A C A|
+| A B C |    |C B A|
++-------+             0 moves
+
+Enter your move(s) [Q for quit and R to reset]: 1d
+Invalid move
+0 1 2 3 4
+. . . . .      card
+| A B C |    |B C B|
+| A B C |    |A C A|
+| A B C |    |C B A|
++-------+             0 moves
+
+Enter your move(s) [Q for quit and R to reset]: 1u
+0 1 2 3 4
+. A . . .      card
+| . B C |    |B C B|
+| A B C |    |A C A|
+| A B C |    |C B A|
++-------+             1 moves
+
+Enter your move(s) [Q for quit and R to reset]: 3u
+0 1 2 3 4
+. A . C .      card
+| . B . |    |B C B|
+| A B C |    |A C A|
+| A B C |    |C B A|
++-------+             2 moves
+
+Enter your move(s) [Q for quit and R to reset]: R
+0 1 2 3 4
+. . . . .      card
+| A B C |    |B C B|
+| A B C |    |A C A|
+| A B C |    |C B A|
++-------+             0 moves
+
+Enter your move(s) [Q for quit and R to reset]: Q
+Quit game, goodbye...
+

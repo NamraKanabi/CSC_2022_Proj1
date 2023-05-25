@@ -9,4 +9,4 @@ SampleStructures.py contains basic data structures that will be used in the prog
 
 AbacoStack.py contains classes used to create the game.
 
-PlayGame.py contained main used to play the game.
+PlayGame.py contains main used to play the game.
